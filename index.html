@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- specifying the site and page title as they will appear on the browser tab or window -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Second Slice Café</title>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="container1">
+            <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#zero-waste">Zero Waste</a></li>
+                <li><a href="#zero-waste">Contact Us</a></li>
+            </ul>
+            </nav>
+            <div id="online-order">
+                <a id="order-button" href="#menu-image">Order Online</a>
+            </div>
+        </div>
+    </header> 
+    <main>
+        <!--banner - logo floating-->
+        <section>
+            <div id="logo" class="grid-item">
+                <img src="./img/logo.png" alt="Second Slice logo" width="45%" height="auto">
+            </div>
+            
+            <div id="banner">
+                <img src="./img/banner.jpg" alt="a picture of inside the cafe">
+                <!--reference: Long Rod, n,d, Digital Image. Reproduced from Unsplash. https://unsplash.com/photos/WC7LeX79iEU.
+-->
+            </div>
+        </section>        
+
+        <!--about-->
+        <section id="about" class="container">          
+            <h1>ABOUT</h1>  
+            <div class="grid-container1">
+                <img src="./img/owners.jpg" width="100%" height="auto">    
+                <!--reference: Phil Kendall, 2017, Digital Image. https://blog.rotacloud.com/independent-cafe-owner-will-pearce/-->  
+                <div>
+                    <p>Second Slice Café began in Northcote in 2015 as a small family owned café.</p>
+                    <p>Owners Trevor and Naomi were passionate about healthy food and spreading health throughout their communities. The Second Slice’s menu is always evolving to focus on nutrition without compromising on quality or taste. The café is embracing sustainability and has a “Zero Waste” policy for operation.</p>
+                    <p>After three years of learning, growing, and serving the Northcote community with fresh, organic foods, Juicy Ladies has decided to go online to let more customer know about them. They have established an online ordering system to be able to provide their customers with fast services. Their focus continues to be centred around spreading knowledge of and access to nutritious foods as well as supporting local small business.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--testmonials-->
+        <section id="testmonials-header" class="container">
+            <h2>Testmonials</h2>
+            <div id="testmonials">
+                <div class="box">
+                        <p>"This is an adorable cafe located in Northcote. The location and environment are the best. Great food too! My favorite item to order are the panini sandwiches, they are absolutely delicious!"</i></p>
+                        <em>– Regenia Zeller</em>
+                </div>
+                <div class="box">
+                    <p>"The café integrates many organic ingredients into their menu as well as an array of fresh, seasonal specials. it is a great place to seek health and quality food!"</p>
+                    <em>– Diana Moriarity</em>
+                </div>
+                <div class="box">
+                    <p>"Definitely check out the menu Second Slice cafe have put together . The owners have put lots of efforts into the menu. They are one of the view owners that actually cares for customers to enjoy every moment and eat with joy . "</p>
+                    <em>– Donny Sparling</em>
+                </div>                
+            </div>
+            
+        </section>
+
+        <!--Menu-->
+        <section id="menu" class="container">
+            <h1>MENU</h1>
+            <p>Our organic ingredients are sourced from local farms.  This means the food you are buying are of the lowest carbon footprint available and 100% certain to be free of GMOs, synthetic chemicals, hormones or antibiotics.</p>
+            <a id="download-menu" href="./menu.pdf">Download Menu</a>
+            <!--reference: The Organik Store and Cafe, n.d., https://static1.squarespace.com/static/5a68342cf43b55701abd0d4e/t/5be0e0c521c67c02eba09c96/1541464265342/Organik_Summer_Menu_2018.pdf--> 
+            <div id="menu-image">
+                <img src="./img/plate_1.jpg" alt="">
+                <!--reference: HelloFresh, n,d, Digital Image. https://www.hellofresh.com.au/plans/?c=SEMNB3MEALSNS--> 
+                <img src="./img/plate_2.jpg" alt="">
+                <!--reference: HelloFresh, n,d, Digital Image. https://www.hellofresh.com.au/plans/?c=SEMNB3MEALSNS--> 
+                <img src="./img/plate_3.jpg" alt="">
+                <!--reference: HelloFresh, Thai Style Chicken & Roast Sweet Potato Salad. n,d, Digital Image. https://www.hellofresh.com.au/plans/?c=SEMNB3MEALSNS-->
+            </div>
+            
+            <!--online order form-->
+            <div id="order-form">
+                <div class="grid-container2">
+                    <form class="column">
+                        <div class="row">
+                        Name:
+                        <br>
+                            <input type="text" name="firstname" placeholder="First">
+                            <input type="text" name="lastname" placeholder="Last">
+                        </div>
+                        <div class="row">
+                            phone:
+                            <br>
+                            <input type="number">
+                        </div>
+                        <div class="row">
+                            Email:
+                            <br>
+                            <input type="email">  
+                        </div>
+                        <div class="row">
+                            Pick-Up Time:
+                            <br>
+                            <input type="time">                        
+                        </div>
+                    </form>
+                    <form class="column">
+                        <div class="row">
+                            Dish:
+                            <br>
+                            <input type="text"> 
+                        </div>     
+                        <div class="row">                  
+                            Quantity:
+                            <br>
+                            <input type="number">
+                        </div>                         
+                        <div class="row">
+                            Special Instructions:
+                            <br>
+                            <textarea name="" id="instructions" type="text"></textarea>                                             
+                        </div>  
+                        <div>
+                            <button type="submit">Order Here</button>
+                        </div>                      
+                    </form>                                                                             
+                </div>                                  
+            </div>           
+        </section>
+
+        <!--Zero Waste-->
+        <section id="zero-waste" class="container">
+            <h1>ZERO WASTE</h1> 
+            <div id="policy">
+                <img src="./img/Zero-Waste.jpg" alt="" width="50%" height="auto">
+                <!--reference: The Exchange/ Orcas Recycling Services. n,d, Digital Image. http://www.exchangeorcas.org/what-is-zero-waste/-->
+                <p>"Zero waste, if correctly implemented, will eliminate toxic waste that poses a threat to our entire earth, including the people on it. Rather than being a form of waste management, we see it as a form of waste prevention with the goal of completely changing the way our communities use and reuse our resources to result in a world free of unused and discarded materials."</p>
+                <!--reference: Kabbage Team, 2014, https://www.kabbage.com/blog/why-you-should-aim-for-a-zero-waste-policy/-->
+                <!--testmonials-->
+                <div id="policies" class="container">
+                        <div class="box">
+                            <h3>Table</h3>
+                            <ul>
+                                <li>Work more with the seasons and offer seasonal specials</li>
+                                <li>Offer small and regular portion sizes to reduce leftover food</li>
+                                <li>Advise customers if they maybe over ordering too much food</li>
+                                <li>Avoid single-use items, provide reusable/recyclable stirrers, spoons, straws etc</li>
+                                <li>Avoid using single use sachets for condiments</li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h3>Kitchen</h3>
+                            <ul>
+                                <li>Order fresh ingredients in small batches and dry ingredients in bulk</li>
+                                <li>Use all the parts of the fruit and vegetables</li>
+                                <li>Purchase products with minimal packaging and that is recycled locally</li>
+                                <li>Offer more drinks which do not require the use of straws</li>
+                                <li>Source more ingredients from local organic farmers/suppliers and avoid airfreighting where possible</li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h3>Community</h3>
+                            <ul>
+                                <li>Promote taking leftovers home</li>
+                                <li>Offer eco friendly bags/containers for takeaways</li>
+                                <li>Share our eco actions on social media and incentivise your customers to do the same</li>
+                                <li>Collect and upcycle your cooking oil into either soap or sell it for Bio-diesel use</li>
+                                <li>Offer a return deposit scheme on your glass containers</li>
+                            </ul>
+                        </div>    
+                </div>
+                <!--reference: The Purpose Business, n.d., http://thepurposebusiness.com/wp-content/uploads/2018/06/ZWG_20180614_digital.compressed.pdf-->                                
+            </div>
+        </section>
+
+        <!--Contact us-->
+        <section id="contact" class="container">
+            <h1>CONTACT US</h1>
+            <div class="grid-container4">
+                <div id="map">
+                    <img src="./img/map.JPG" alt="map">
+                </div>
+                <div id="contact-detail">
+                    <p>3 Separation St, Northcote VIC 3070, Australia</p>
+                    <p>Phone: (03) 1111 2222</p>
+                    <div>
+                        <p>Opening Hours</p>
+                        <p class="hour">Monday to Thursday: 11:30AM - 9PM</p>
+                        <p class="hour">Friday to Sunday: 11:30AM - 10PM</p>
+                    </div>
+                    <div id="icon">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                        <!--reference: Font Awesome, n.d. https://fontawesome.com/icons/facebook?style=brands-->
+                        <i class="fab fa-instagram fa-2x"></i>
+                        <!--reference: Font Awesome, n.d. https://fontawesome.com/icons/instagram?style=brands-->
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                        <!--reference: Font Awesome, n.d. https://fontawesome.com/icons/twitter-square?style=brands-->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer>
+            <!--subscription form-->
+            <section id="subscription">
+                <form id="subscription-form">
+                    Subscribe to Our Newsletters:
+                    <input type="email" placeholder="email">                                    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+            <p>Copyright 2019 © Second Slice Cafe All Rights Reserved</p>
+        </footer>
+        <!--copyright declaration-->
+        <p id="copyright">This website has been created as part of an assignment in an approved course of study for Curtin University and contains copyright material not created by the author. All copyright material used remains copyright of the respective owners and has been used here pursuant to Section 40 of the Copyright Act 1968 (Commonwealth of Australia). No part of this work may be reproduced without consent of the original copyright owners. See code comments for references. </p>       
+    </main>
+</body>
+</html>
